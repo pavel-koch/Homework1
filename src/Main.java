@@ -11,9 +11,9 @@ public class Main {
         System.out.println("paper = " + paper);
 
         //Вторая задача
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
 
         System.out.println("Вторая задача");
         System.out.println("dog = " + dog);
@@ -21,9 +21,9 @@ public class Main {
         System.out.println("paper = " + paper);
 
         //Третья задача
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639;
 
         System.out.println("Третья задача");
         System.out.println("dog = " + dog);
@@ -34,20 +34,20 @@ public class Main {
         System.out.println("Четвертая задача");
         var friend = 19;
         System.out.println(friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println(friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println(friend);
 
         //Пятая задача
         System.out.println("Пятая задача");
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog +4;
+        frog += 4;
         System.out.println(frog);
 
         //Шестая задача
@@ -68,7 +68,7 @@ public class Main {
         var timeWork = 8;
         var amountWorkers = hoursWork / timeWork;
         System.out.println("Всего работников в компании — " + amountWorkers + " человек");
-        amountWorkers = amountWorkers + 94;
+        amountWorkers += 94;
         timeWork = hoursWork / amountWorkers;
         System.out.println("Если в компании работает " + amountWorkers + " человек, то всего "
                 + timeWork + " часов работы может быть поделено между сотрудниками");
