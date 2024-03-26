@@ -70,6 +70,47 @@ public class Main {
         System.out.println("Вес в граммах = " + weightMixGr + " гр");
         System.out.println("Вес в килограммах = " + weightMixKg + " Кг");
 
+        // Задача 7
+        System.out.println("Задача 7");
+        int weight = 7000;
+        int weightDrop1 = 250;
+        int weightDrop2 = 500;
+        int timeDrop1 = weight / weightDrop1;
+        if ((weight % weightDrop1) > 0)
+            timeDrop1++;
+        int timeDrop2 = weight / weightDrop2;
+        if ((weight % weightDrop2) > 0)
+            timeDrop2++;
+
+        int timeDropAver = (timeDrop1 + timeDrop2) / 2;
+        System.out.println("Если спортсмен будет терять каждый день по " + weightDrop1
+                + " грамм, то на похудение уйдет " + timeDrop1 + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по " + weightDrop2
+                + " грамм, то на похудение уйдет " + timeDrop2 + " дней");
+        System.out.println("В среднем на похуденее спортсмена уйдет " + timeDropAver + " дней");
+
+
+        // Задача 8
+        System.out.println("Задача 8");
+        float bonus = 1.1f;
+        float payMasha = 67760f;
+        float payDen = 83690f;
+        float payKris = 76230f;
+        float payMashaNew = payMasha * bonus;
+        float payMashaDif = (payMashaNew - payMasha) * 12;
+        float payDenNew = payDen * bonus;
+        float payDenDif = (payDenNew - payDen) * 12;
+        float payKrisNew = payKris * bonus;
+        float payKrisDif = (payKrisNew - payKris) * 12;
+
+        System.out.println("Маша теперь получает " + payMashaNew
+                + " рублей. Годовой доход вырос на " + payMashaDif + " рублей");
+        System.out.println("Денис теперь получает " + payDenNew
+                + " рублей. Годовой доход вырос на " + payDenDif + " рублей");
+        System.out.println("Кристина теперь получает " + payKrisNew
+                + " рублей. Годовой доход вырос на " + payKrisDif + " рублей");
+
+
 
 
 
